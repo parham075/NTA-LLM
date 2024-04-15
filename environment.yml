@@ -1,0 +1,19 @@
+name: nlp
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - ipykernel
+  - pip
+  - pip:
+    - langchain
+    - numpy
+    - nltk
+    - tqdm
+    - pandas
+    - datasets
+    - cassio
+    - openai
+    - tiktoken
+    - PyPDF2
